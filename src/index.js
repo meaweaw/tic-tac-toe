@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Matrix from './components/matrix'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Matrix />
   </React.StrictMode>,
   document.getElementById('root')
 );
